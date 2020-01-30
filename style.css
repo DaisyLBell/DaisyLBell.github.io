@@ -1,0 +1,38 @@
+
+h1{
+  text-align: center;
+  font-size: 60%
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+}
+
+h2{
+  text-align: center;
+  font-size: 400%;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-style: italic;
+}
+
+h5{
+  text-align: center;
+  font-size: 150%;
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: #0;
+
+}
+
+h3{
+  text-align: left;
+  font-size: 200%;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;;
+  font-style: italic;
+  color: #ff7518;
+}
+
+h4{
+  text-align: center;
+  font-size: 60%
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+}
