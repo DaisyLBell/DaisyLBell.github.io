@@ -1,0 +1,50 @@
+
+
+.title-style{
+  margin: 50px;
+  padding: 100px;
+  text-align: center;
+  font-size: 500%;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-style: bold;
+  color: #0;
+}
+
+h1{
+  margin: 100px 20px 20px 250px;
+  text-align: left;
+  font-size: 280%;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  color: #ff4040;
+}
+
+h2{
+  padding: 20px;
+  text-align: center;
+  font-size: 150%;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  color: #0;
+}
+
+.book-title{
+  font-style: italic;
+}
+
+p {
+
+  text-align: center;
+  font-size: 90%;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #0;
+}
+
+h3{
+  margin: 100 50px 100px 50px;
+  padding: 100px;
+  text-align: center;
+  font-size: 300%;
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: #0;
+}
