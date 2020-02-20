@@ -1,0 +1,234 @@
+body{
+
+}
+
+.homepage{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background:white;
+  margin-left: 0;
+  z-index: 1;
+}
+
+.homepage img{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  /* filter: blur(5px); */
+  z-index: 1;
+}
+
+.titleName {
+  margin-top: 0vh;
+  padding-left: 10vw;
+  overflow: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.titleName p{
+  text-align: left;
+  font-size: 60px;
+  color: black;
+  opacity: 0.6;
+  font-family: Helvetica, Helvetica, Arial, sans-serif;
+}
+.categoriesHome{
+  text-align: center;
+  margin-bottom: 200px;
+  position: relative;
+  z-index: 3;
+}
+
+.categoriesHome img{
+  text-align: center;
+  width: 280px;
+  height: 80px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+
+.categoriesHome img:hover{
+  opacity: 0.6;
+}
+
+.sampleWork{
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  margin-left: 10vw;
+  width: 80vw;
+  height: 80vh;
+  background: black;
+  /* opacity: 0.75; */
+}
+
+.aboutMeHomePage{
+  width:100vw;
+  height: 700px;
+  background: white;
+}
+
+.aboutMeHomePage p{
+  text-align: center;
+  font-family: Helvetica, Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  border-top: 30px;
+  color: black;
+  opacity: 0.6;
+}
+
+.contactMeHomepage{
+  width:100vw;
+  height: 50vh;
+  background:black;
+  margin-top: 4vw;
+  margin-left: 0vw;
+  padding-top: 4vw;
+}
+
+.contactMeHomepage p{
+  width: 25vw;
+  height: 25vw;
+  float: left;
+  text-align: center;
+  font-family: Helvetica, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  padding-top: 40px;
+  color: white;
+  opacity: 0.6;
+}
+
+/* photography page */
+
+.photographyTitle{
+  /* margin-bottom: 20vh; */
+  padding-top: 0px;
+}
+
+.photographyTitle p{
+  font-family: Helvetica, Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 80px;
+  color: black;
+}
+
+.content{
+  width: 100vw;
+  height: 90vh;
+  background: white;
+  margin-bottom: 8vw;
+}
+
+.contentImagePlacement{
+  float:left;
+  text-align:center;
+  width: 20vw;
+  height: 20vw;
+  background: black;
+  /* padding-top:8vw;
+  padding-right:4vw;
+  padding-left:8vw; */
+  margin-top: 4vw;
+  margin-right: 4vw;
+  margin-bottom: 4vw;
+  margin-left: 8vw;
+}
+
+.contentImagePlacement img{
+  float: left;
+  text-align: center;
+  width: 20vw;
+  height: 20vw;
+  /* margin-top: 8vw;
+  margin-right: 4vw;
+  margin-left: 8vw; */
+}
+
+.contentImagePlacement:hover{
+  opacity: 0.8;
+}
+
+.next{
+  width: 100vw;
+  height: 30vh;
+  background: white;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+}
+.next p{
+  text-align: left;
+  font-family: Helvetica, Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  padding-top: 20px;
+  margin-left: 8vw;
+  color: black;
+  opacity: 0.6;
+}
+
+.next p:hover{
+  opacity: 0.8;
+}
+
+.infographic{
+  text-align: center;
+  width: 100vw;
+  height: 60vh;
+  background:white;
+}
+
+.infographic img{
+  text-align: center;
+  padding-top: 70px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  width: 800px;
+  height: 60vh;
+}
+
+.aboutMeText{
+  width: 80vw;
+  height: 530px;
+  background: black;
+  margin-right: 10vw;
+  margin-left: 10vw;
+}
+
+.aboutMeText p{
+  text-align: center;
+  line-height: 30px;
+  padding-top: 85px;
+  padding-right: 30px;
+  padding-bottom: 85px;
+  padding-left: 30px;
+  font-family: Helvetica;
+  font-size: 15px;
+  color:white;
+}
+
+.contactMethods{
+  width: 60vw;
+  height: 930px;
+  background: black;
+  margin-top: 100px;
+  margin-right: 20vw;
+  margin-bottom: 150px;
+  margin-left: 20vw;
+  text-align: center;
+}
+
+.contactMethods p{
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+  font-size: 20px;
+  line-height: 93px;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+.contactMethods p: hover{
+  opacity: 0.6;
+}
