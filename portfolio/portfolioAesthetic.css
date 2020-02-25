@@ -1,5 +1,5 @@
 body{
-
+ margin: 0;
 }
 
 .homepage{
@@ -23,7 +23,7 @@ body{
 
 .titleName {
   margin-top: 0vh;
-  padding-left: 10vw;
+  /* padding-left: 10vw; */
   /* overflow: auto; */
   position: relative;
   z-index: 2;
@@ -134,6 +134,12 @@ body{
   text-align: center;
 }
 
+.content p{
+  font-family: Helvetica;
+  font-size: 40px;
+  color: white;
+}
+
 .contentImagePlacement{
   float:left;
   text-align:center;
@@ -157,6 +163,11 @@ body{
   /* margin-top: 8vw;
   margin-right: 4vw;
   margin-left: 8vw; */
+}
+
+
+.modalImg{
+
 }
 
 #biggerImg{
@@ -253,14 +264,14 @@ body{
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top;
+  padding-top: 200px;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   overflow: auto;
   background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
+  background-color: rgba(0,0,0, 0.8);
 }
 
 .modal-content{
