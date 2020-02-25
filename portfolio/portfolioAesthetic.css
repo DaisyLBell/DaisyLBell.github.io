@@ -3,20 +3,22 @@ body{
 }
 
 .homepage{
-  position: relative;
   width: 100%;
   height: 100vh;
   background:white;
   margin-left: 0;
-  z-index: 1;
 }
 
-.homepage img{
-  position: relative;
+.background{
+  z-index: -3;
+}
+
+.background img{
+  position: absolute;
   width: 100%;
   height: 100vh;
   /* filter: blur(5px); */
-  z-index: 1;
+  opacity: 0.8;
 }
 
 .titleName {
@@ -35,10 +37,11 @@ body{
   font-family: Helvetica, Helvetica, Arial, sans-serif;
 }
 .categoriesHome{
+  position: absolute;
   text-align: center;
+  margin-top: 25vh;
+  margin-left: 39vw;
   margin-bottom: 200px;
-  position: relative;
-  z-index: 3;
 }
 
 .categoriesHome img{
@@ -47,6 +50,7 @@ body{
   height: 80px;
   padding-top: 0px;
   padding-bottom: 30px;
+  z-index: 1;
 }
 
 .categoriesHome img:hover{
