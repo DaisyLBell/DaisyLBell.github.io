@@ -24,7 +24,7 @@ body{
 .titleName {
   margin-top: 0vh;
   padding-left: 10vw;
-  overflow: auto;
+  /* overflow: auto; */
   position: relative;
   z-index: 2;
 }
