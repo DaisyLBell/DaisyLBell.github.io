@@ -8,37 +8,65 @@
   <body>
 
     <div class="photographyTitle">
+      <div class="header">
+        <a href="index.html">
+      <img src="titleSlide1.png">
+      </a>
+      </div>
       <p>paintings</p>
       </div>
 
+
     <div class="content">
-  <div class="contentImagePlacement">
-    <img src="studio8.jpg">
-    </div>
-  <div class="contentImagePlacement">
-    <img src="studio7.jpg">
-    </div>
-  <div class="contentImagePlacement">
-    <img src="studio6.jpg">
-    </div>
-  <div class="contentImagePlacement">
-    <img src="studio5.jpg">
-    </div>
-  <div class="contentImagePlacement">
-    <img src="studio4.jpg">
-    </div>
-  <div class="contentImagePlacement">
-    <img src="studio3.jpg">
-    </div>
-  <div class="contentImagePlacement">
-    <img src="studio9.jpg">
-    </div>
-  <div class="contentImagePlacement">
-    <img src="studio1.jpg">
-    </div>
-  <div class="contentImagePlacement">
-    <img src="studio2.jpg">
-    </div>
+      <img id="biggerImg" class="modalImg" src="studio8.jpg" alt="photo" style="width:80%; max-width: 300px">
+      <img id="biggerImg" class="modalImg" src="studio7.jpg" alt="photo" style="width:80%; max-width: 300px">
+      <img id="biggerImg" class="modalImg" src="studio6.jpg" alt="photo" style="width:80%; max-width: 300px">
+      <img id="biggerImg" class="modalImg" src="studio5.jpg" alt="photo" style="width:80%; max-width: 300px">
+      <img id="biggerImg" class="modalImg" src="studio4.jpg" alt="photo" style="width:80%; max-width: 300px">
+      <img id="biggerImg" class="modalImg" src="studio3.jpg" alt="photo" style="width:80%; max-width: 300px">
+      <img id="biggerImg" class="modalImg" src="studio9.jpg" alt="photo" style="width:80%; max-width: 300px">
+      <img id="biggerImg" class="modalImg" src="studio1.jpg" alt="photo" style="width:80%; max-width: 300px">
+      <img id="biggerImg" class="modalImg" src="studio2.jpg" alt="photo" style="width:80%; max-width: 300px">
+
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <span class="next">next</span>
+        <img class="modal-content" id="img101">
+      <div id="caption"></div>
+      </div>
+      <script>
+      var modal = document.getElementById("myModal");
+      var imgs = document.getElementsByClassName('modalImg');
+      var modalImg = document.getElementById("img101");
+      var captionText = document.getElementById("photo");
+      var index = 0;
+
+      for(var i = 0; i < imgs.length; i++){
+        var thisIndex = i;
+        imgs[i].index = thisIndex;
+        imgs[i].onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          // captionText.innerHTML = this.alt;
+          index = this.index;
+        }
+
+      }
+      var next = document.getElementsByClassName("next")[0];
+      next.onclick = function () {
+        index++;
+        index%=imgs.length;
+        modal.style.display = "block";
+        modalImg.src = imgs[index].src;
+        // captionText.innerHTML = this.alt;
+        index = imgs[index].index;
+
+      }
+      var span = document.getElementsByClassName("close")[0];
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+    </script>
     </div>
 
     <div class="contactMeHomepage">

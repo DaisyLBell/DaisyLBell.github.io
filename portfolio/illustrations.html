@@ -8,6 +8,11 @@
   <body>
 
     <div class="photographyTitle">
+      <div class="header">
+        <a href="index.html">
+      <img src="titleSlide1.png">
+      </a>
+      </div>
       <p>illustrations</p>
       </div>
 
@@ -40,7 +45,7 @@
     <img src="artboard7.jpg">
     </div> -->
     <img id="biggerImg" src="artboard9.jpg" alt="photo" style="width:80%; max-width: 300px">
-      <div id="myModal" class="modal">
+      <!-- <div id="myModal" class="modal">
       <span class="close">&times;</span>
       <img class="modal-content" id="img101">
       <div id="caption"></div>
@@ -59,10 +64,10 @@
       span.onclick = function() {
         modal.style.display = "none";
       }
-    </script>
+    </script> -->
 
   <img id="biggerImg2" src="artboard3.jpg" alt="photo" style="width:80%; max-width: 300px">
-    <div id="myModal" class="modal">
+    <!-- <div id="myModal" class="modal">
     <span class="close">&times;</span>
     <img class="modal-content" id="img101">
     <div id="caption"></div>
@@ -81,10 +86,10 @@
     span.onclick = function() {
       modal.style.display = "none";
     }
-  </script>
+  </script> -->
 
     <img id="biggerImg3" src="artboard8.jpg" alt="photo" style="width:80%; max-width: 300px">
-    <div id="myModal" class="modal">
+    <!-- <div id="myModal" class="modal">
     <span class="close">&times;</span>
     <img class="modal-content" id="img101">
     <div id="caption"></div>
@@ -103,10 +108,10 @@
     span.onclick = function() {
       modal.style.display = "none";
     }
-  </script>
+  </script> -->
 
     <img id="biggerImg4" src="artboard1.png" alt="photo" style="width:80%; max-width: 300px">
-    <div id="myModal" class="modal">
+    <!-- <div id="myModal" class="modal">
     <span class="close">&times;</span>
     <img class="modal-content" id="img101">
     <div id="caption"></div>
@@ -125,10 +130,10 @@
     span.onclick = function() {
       modal.style.display = "none";
     }
-  </script>
+  </script> -->
 
     <img id="biggerImg5" src="artboard2.jpg" alt="photo" style="width:80%; max-width: 300px">
-    <div id="myModal" class="modal">
+    <!-- <div id="myModal" class="modal">
     <span class="close">&times;</span>
     <img class="modal-content" id="img101">
     <div id="caption"></div>
@@ -147,10 +152,10 @@
     span.onclick = function() {
       modal.style.display = "none";
     }
-  </script>
+  </script> -->
 
     <img id="biggerImg6" src="artboard4.jpg" alt="photo" style="width:80%; max-width: 300px">
-    <div id="myModal" class="modal">
+    <!-- <div id="myModal" class="modal">
     <span class="close">&times;</span>
     <img class="modal-content" id="img101">
     <div id="caption"></div>
@@ -169,10 +174,10 @@
     span.onclick = function() {
       modal.style.display = "none";
     }
-  </script>
+  </script> -->
 
     <img id="biggerImg7" src="artboard5.jpg" alt="photo" style="width:80%; max-width: 300px">
-    <div id="myModal" class="modal">
+    <!-- <div id="myModal" class="modal">
     <span class="close">&times;</span>
     <img class="modal-content" id="img101">
     <div id="caption"></div>
@@ -191,10 +196,10 @@
     span.onclick = function() {
       modal.style.display = "none";
     }
-  </script>
+  </script> -->
 
     <img id="biggerImg8" src="artboard6.jpg" alt="photo" style="width:80%; max-width: 300px">
-    <div id="myModal" class="modal">
+    <!-- <div id="myModal" class="modal">
     <span class="close">&times;</span>
     <img class="modal-content" id="img101">
     <div id="caption"></div>
@@ -213,23 +218,42 @@
     span.onclick = function() {
       modal.style.display = "none";
     }
-  </script>
+  </script> -->
 
-    <img id="biggerImg9" src="artboard7.jpg" alt="photo" style="width:80%; max-width: 300px">
+    <img id="biggerImg9" class="modalImg" src="artboard7.jpg" alt="photo" style="width:80%; max-width: 300px">
     <div id="myModal" class="modal">
     <span class="close">&times;</span>
+    <span class="next">next</span>
     <img class="modal-content" id="img101">
     <div id="caption"></div>
     </div>
     <script>
     var modal = document.getElementById("myModal");
-    var img = document.getElementById("biggerImg9");
+    var imgs = document.getElementsByClassName('modalImg');
     var modalImg = document.getElementById("img101");
     var captionText = document.getElementById("photo");
-    img.onclick = function(){
+    var index = 0;
+
+    for(var i = 0; i < imgs.length; i++){
+      var thisIndex = i;
+      imgs[i].index = thisIndex;
+      imgs[i].onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        // captionText.innerHTML = this.alt;
+        index = this.index;
+      }
+
+    }
+    var next = document.getElementsByClassName("next")[0];
+    next.onclick = function () {
+      index++;
+      index%=imgs.length;
       modal.style.display = "block";
-      modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
+      modalImg.src = imgs[index].src;
+      // captionText.innerHTML = this.alt;
+      index = imgs[index].index;
+
     }
     var span = document.getElementsByClassName("close")[0];
     span.onclick = function() {

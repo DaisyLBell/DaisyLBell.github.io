@@ -21,6 +21,22 @@ body{
   opacity: 0.8;
 }
 
+.header{
+  text-align: center;
+  z-index: -3;
+  position: absolute;
+  margin-left: 28vw;
+  /* margin-top: 0px; */
+  /* text-align: center; */
+}
+
+.header img{
+  text-align: center;
+  width: 650px;
+  height: 400px;
+  opacity: 0.6;
+}
+
 .titleName {
   margin-top: 0vh;
   /* padding-left: 10vw; */
@@ -115,7 +131,11 @@ body{
 
 .photographyTitle{
   /* margin-bottom: 20vh; */
-  padding-top: 0px;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  z-index: 1;
+  position: relative;
 }
 
 .photographyTitle p{
@@ -265,7 +285,7 @@ body{
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 200px;
+  padding-top: 100px;
   left: 0;
   top: 0;
   width: 100%;
