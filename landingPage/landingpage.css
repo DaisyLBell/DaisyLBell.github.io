@@ -1,0 +1,40 @@
+body{
+  background-color: black;
+  margin: 0;
+}
+
+.otherBody{
+  position: fixed;
+  width:80vw;
+  height:80vh;
+  margin-top: 10vh;
+  margin-right:20vh;
+  margin-left: 10vw;
+  color: white;
+  opacity: 0.8;
+  text-align: center;
+}
+
+#Title{
+  width: 500px;
+  height: 200px;
+}
+
+#Title p{
+  font-family: Helvetica;
+  font-size: 100px;
+  color: white;
+  text-align: center;
+}
+
+.base{
+  width: 100vw;
+  height: 30vw;
+  color: white;
+}
+
+.base img{
+  width: 500px;
+  margin-top: 100px;
+  text-align: center;
+}
