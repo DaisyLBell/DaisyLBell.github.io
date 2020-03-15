@@ -7,6 +7,7 @@ body{
   height: 100vh;
   background:white;
   margin-left: 0;
+  z-index: -3;
 }
 
 .background{
@@ -83,7 +84,7 @@ body{
   height: 800px;
   /* text-align: center; */
   background: white;
-  positin: relative;
+  position: relative;
   /* opacity: 0.75; */
 }
 

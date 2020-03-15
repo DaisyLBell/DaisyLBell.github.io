@@ -3,38 +3,31 @@ body{
   margin: 0;
 }
 
-.otherBody{
-  position: fixed;
-  width:80vw;
-  height:80vh;
-  margin-top: 10vh;
-  margin-right:20vh;
-  margin-left: 10vw;
-  color: white;
-  opacity: 0.8;
-  text-align: center;
-}
-
 #Title{
-  width: 500px;
-  height: 200px;
-}
-
-#Title p{
+  text-align:center;
   font-family: Helvetica;
-  font-size: 100px;
-  color: white;
-  text-align: center;
-}
-
-.base{
-  width: 100vw;
-  height: 30vw;
-  color: white;
-}
-
-.base img{
-  width: 500px;
+  font-size: 60px;
   margin-top: 100px;
+  color: orange;
+}
+
+.headings{
+  text-align: left;
+  /* float: left; */
+  font-family: serif;
+  color: pink;
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 150px;
+  font-size: 40px
+}
+
+.subtext{
   text-align: center;
+  font-family: serif;
+  color: white;
+  margin-top: 50px;
+  margin-left: 180px;
+  margin-right: 180px;
+  font-size: 30px;
 }

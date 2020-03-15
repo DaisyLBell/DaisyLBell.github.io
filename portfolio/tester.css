@@ -1,0 +1,75 @@
+body{
+  background-color: #5A5A5A;
+  margin: 0;
+}
+
+.mainPageTop{
+  width: 100vw;
+  height: 100vh;
+}
+
+.mainPageTop img{
+  height: 120vh;
+  z-index: -2;
+  text-align: left;
+  position: absolute;
+}
+
+.backgroundButtons{
+  width: 355px;
+  height: 405px;
+  background-color: black;
+  opacity: 0.3;
+  filter: blur(10px); */
+  text-align: center;
+  margin-top: 27vh;
+  margin-left: 525px;
+  position: absolute;
+  z-index: 1;
+}
+
+.homepageButtons{
+  width: 350px;
+  height: 400px;
+  background-color: black;
+  opacity: 0.40;
+  text-align: center;
+  margin-top: 27vh;
+  margin-left: 525px;
+  position: absolute;
+  z-index: 2;
+}
+
+.buttonsText{
+  width: 350px;
+  height: 400px;
+  position: absolute;
+  z-index: 3;
+  text-align: center;
+  margin-top: 27.5vh;
+  margin-left: 525px;
+}
+
+.buttonsText p{
+  color: #faaa94;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+}
+
+.buttonsText p:hover{
+  color: white;
+}
+
+.downwardArrow{
+  position: absolute;
+  margin-top: 85vh;
+  margin-left: 675px;
+  text-align: center;
+  z-index: 3;
+}
+
+.downwardArrow img{
+  width: 80px;
+  height: 70px;
+}
