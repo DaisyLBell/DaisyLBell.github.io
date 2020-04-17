@@ -22,6 +22,12 @@ body{
   font-size: 40px
 }
 
+.headings img{
+  width: 50vw;
+  /* padding: 30vw; */
+  text-align: center;
+}
+
 .subtext{
   text-align: center;
   font-family: serif;
