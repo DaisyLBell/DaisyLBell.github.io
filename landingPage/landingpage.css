@@ -53,9 +53,9 @@ body{
   float: left;
   width: 22vw;
   height: 100px;
-  background-color: lightgrey;
+  background-color: white;
   font-family: serif;
-  margin-top: 2vw;
+  margin-top: 1.75vw;
   /* margin-bottom: 8vw; */
   margin-left: 2vw;
   z-index: 1;
@@ -64,8 +64,8 @@ body{
 .rectangle{
   width: 100vw;
   height: 150px;
-  background-color: white;
-  margin-top: 8vw;
+  background-color: lightgrey;
+  margin-top: 3vw;
   margin-bottom: 8vw;
   z-index: -1;
   /* text-align: center; */
