@@ -3,7 +3,7 @@ body{
   margin: 0;
 }
 
-#Title{
+.Title{
   text-align:center;
   font-family: Helvetica;
   font-size: 60px;
@@ -30,4 +30,40 @@ body{
   margin-left: 180px;
   margin-right: 180px;
   font-size: 30px;
+}
+
+.navigation{
+  float: left;
+  width: 22vw;
+  height: 100px;
+  background-color: lightgrey;
+  font-family: serif;
+  margin-top: 2vw;
+  /* margin-bottom: 8vw; */
+  margin-left: 2vw;
+  z-index: 1;
+}
+
+.rectangle{
+  width: 100vw;
+  height: 150px;
+  background-color: white;
+  margin-top: 8vw;
+  margin-bottom: 8vw;
+  z-index: -1;
+  /* text-align: center; */
+}
+
+.navigation p{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: sans-serif;
+  /* padding-top: -10px; */
+}
+
+.bottom{
+  width: 100vw;
+  height: 20vw;
 }
