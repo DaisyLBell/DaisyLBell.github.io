@@ -33,9 +33,20 @@ body{
 }
 
 .subtext img{
-  width: 30vw;
-  /* padding: 30vw; */
+  width: 100vh;
+  padding-top: 5vw;
   text-align: center;
+  border-radius: 5px;
+  border-color: lightgrey;
+}
+
+.subtext p{
+  font-family: sans-serif;
+  font-size: 50px;
+  color: blue;
+  padding-top: 10vh;
+  text-align: center;
+
 }
 
 .navigation{
