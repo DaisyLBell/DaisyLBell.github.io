@@ -1,0 +1,144 @@
+body{
+  background-color: black;
+  margin: 0;
+}
+
+.plzWork{
+  width: 500px;
+  height: 2536px;
+  position: absolute;
+}
+
+.screen{
+  background-color: #FFFBF7;
+  width: 375px;
+  height: 2436px;
+  margin-top: 50px;
+  margin-left: 50px;
+  position: relative;
+}
+
+.header{
+  color: white;
+  width: 375px;
+  height: 102px;
+  position: fixed;
+}
+
+.header img{
+  padding-top: 30px;
+  padding-left: 100px;
+  text-align: center;
+  width: 175px;
+}
+
+.headerShadow{
+  color: #707070;
+  top: 44px;
+  left: 41px;
+  width: 375px;
+  height: 102px;
+  position: fixed;
+}
+
+.baseRectangle{
+  background-color: white;
+  top: 760px;
+  left: 50px;
+  width: 375px;
+  height: 102px;
+  position: fixed;
+}
+
+.buttonsAtBase img{
+  padding-top: 35px;
+  padding-left: 49px;
+  float: left;
+  height: 35px;
+}
+
+.slidingStuff{
+  padding-top: 20px;
+  position: relative;
+}
+
+.one{
+  top: 130px;
+  left: 40px;
+  position: absolute;
+}
+
+.two{
+  text-align: center;
+  position: absolute;
+  padding-top: 30px;
+  padding-left: 80px;
+  top: 310px;
+}
+
+.three{
+  position: absolute;
+  padding-top: 30px;
+  top: 520px;
+  left: -395px;
+}
+
+.four{
+  text-align: center;
+  position: absolute;
+  padding-top: 30px;
+  padding-left: 80px;
+  top: 730px;
+}
+
+.five{
+  top: 940px;
+  left: 40px;
+  padding-top: 30px;
+  position: absolute;
+}
+
+.six{
+  text-align: center;
+  position: absolute;
+  padding-top: 30px;
+  padding-left: 80px;
+  top: 1150px;
+}
+
+.seven{
+  position: absolute;
+  padding-top: 30px;
+  top: 1360px;
+  left: -395px;
+}
+
+.eight{
+  text-align: center;
+  position: absolute;
+  padding-top: 30px;
+  padding-left: 80px;
+  top: 1570px;
+}
+
+.nine{
+  top: 1780px;
+  left: 40px;
+  padding-top: 30px;
+  position: absolute;
+}
+
+.ten{
+  text-align: center;
+  position: absolute;
+  padding-top: 30px;
+  padding-left: 80px;
+  top: 1990px;
+}
+
+.eleven{
+  position: absolute;
+  padding-top: 30px;
+  top: 2200px;
+  left: -395px;
+}
