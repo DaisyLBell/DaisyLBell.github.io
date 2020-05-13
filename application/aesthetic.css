@@ -1,6 +1,6 @@
 body{
   background-color: black;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .plzWork{
@@ -23,6 +23,7 @@ body{
   width: 375px;
   height: 102px;
   position: fixed;
+  z-index: 3;
 }
 
 .header img{
@@ -39,6 +40,7 @@ body{
   width: 375px;
   height: 102px;
   position: fixed;
+  z-index: 3;
 }
 
 .baseRectangle{
@@ -48,6 +50,7 @@ body{
   width: 375px;
   height: 102px;
   position: fixed;
+  z-index: 3;
 }
 
 .buttonsAtBase img{
@@ -55,6 +58,7 @@ body{
   padding-left: 49px;
   float: left;
   height: 35px;
+  z-index: 4;
 }
 
 .slidingStuff{
@@ -69,7 +73,7 @@ body{
 }
 
 .two{
-  text-align: center;
+  /* text-align: center; */
   position: absolute;
   padding-top: 30px;
   padding-left: 80px;
@@ -84,7 +88,7 @@ body{
 }
 
 .four{
-  text-align: center;
+  /* text-align: center; */
   position: absolute;
   padding-top: 30px;
   padding-left: 80px;
@@ -99,7 +103,7 @@ body{
 }
 
 .six{
-  text-align: center;
+  /* text-align: center; */
   position: absolute;
   padding-top: 30px;
   padding-left: 80px;
@@ -114,7 +118,7 @@ body{
 }
 
 .eight{
-  text-align: center;
+  /* text-align: center; */
   position: absolute;
   padding-top: 30px;
   padding-left: 80px;
@@ -129,7 +133,7 @@ body{
 }
 
 .ten{
-  text-align: center;
+  /* text-align: center; */
   position: absolute;
   padding-top: 30px;
   padding-left: 80px;
@@ -158,7 +162,7 @@ body{
   top: 862px;
   left: 50px;
   width: 375px;
-  height: 50px;
+  height: 200px;
 }
 
 .leftBlack{
@@ -177,4 +181,26 @@ body{
   left: 425px;
   width: 500px;
   height: 2486px;
+}
+
+.title img{
+  padding-top: 15px;
+  padding-right: 40px;
+  padding-left: 40px;
+  /* top: 10px;
+  left: 60px; */
+  height: 19px;
+  position: absolute;
+  z-index: 2;
+}
+
+.atTheMomentTitle img{
+  text-align: left;
+  padding-top: 15px;
+  padding-left: 40px;
+  /* top: 10px;
+  left: 60px; */
+  height: 19px;
+  position: absolute;
+  z-index: 2;
 }
