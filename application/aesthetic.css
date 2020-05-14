@@ -40,6 +40,16 @@ body{
   width: 175px;
 }
 
+.iosCharacteristics img{
+  padding-top: 10px;
+  text-align: center;
+  width: auto;
+  height: 10px;
+  z-index: 3;
+  float: left;
+  position: absolute;
+}
+
 div.profileToggle{
   width: 375px;
   position: fixed;
