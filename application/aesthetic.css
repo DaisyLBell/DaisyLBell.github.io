@@ -91,8 +91,8 @@ div.profileToggle{
 div.seen{
     position: relative;
     top: 150px;
-    left: 40px;
-    width: 335px;
+    /* left: 40px; */
+    width: 375px;
     padding-top: 10px;
     /* padding-bottom: 30px; */
     /* height: 200px; */
@@ -112,7 +112,7 @@ div.three{
   position: relative;
   padding-top: 30px;
   top: 130px;
-  width: 335px;
+  width: 375px;
   overflow: auto;
   /* left: -395px; */
 
@@ -128,10 +128,10 @@ div.three{
 
 div.five{
   top: 130px;
-  left: 40px;
+  /* left: 40px; */
   padding-top: 30px;
   position: relative;
-  width: 335px;
+  width: 375px;
   overflow: auto;
 }
 
@@ -148,7 +148,7 @@ div.seven{
   padding-top: 30px;
   top: 130px;
   /* left: -395px; */
-  width: 335px;
+  width: 375px;
   overflow: auto;
 }
 
@@ -162,10 +162,10 @@ div.seven{
 
 div.nine{
   top: 130px;
-  left: 40px;
+  /* left: 40px; */
   padding-top: 30px;
   position: relative;
-  width: 335px;
+  width: 375px;
   overflow: auto;
 }
 
@@ -182,7 +182,7 @@ div.eleven{
   padding-top: 30px;
   top: 130px;
   /* left: -395px; */
-  width: 335px;
+  width: 375px;
   overflow: auto;
 }
 
