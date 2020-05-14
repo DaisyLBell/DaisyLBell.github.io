@@ -154,6 +154,7 @@ body{
   left: 50px;
   width: 375px;
   height: 50px;
+  z-index: 2;
 }
 
 .bottomBlack{
@@ -163,6 +164,7 @@ body{
   left: 50px;
   width: 375px;
   height: 200px;
+  z-index: 2;
 }
 
 .leftBlack{
@@ -172,6 +174,7 @@ body{
   left: 0px;
   width: 50px;
   height: 2486px;
+  z-index: 2;
 }
 
 .rightBlack{
@@ -181,10 +184,11 @@ body{
   left: 425px;
   width: 500px;
   height: 2486px;
+  z-index: 2;
 }
 
 .title img{
-  padding-top: 15px;
+  padding-top: 18px;
   padding-right: 40px;
   padding-left: 40px;
   /* top: 10px;
@@ -203,4 +207,52 @@ body{
   height: 19px;
   position: absolute;
   z-index: 2;
+}
+
+.media img{
+  /* float: left; */
+  /* text-align: left; */
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 120px;
+  /* top: 0; */
+  position: absolute;
+  z-index: 1;
+}
+
+.mediaName{
+  padding-top: 163px;
+  padding-left: 20px;
+  font-family: Helvetica;
+  font-size: 6px;
+  color: white;
+  text-align: left;
+  position: absolute;
+  z-index: 1;
+  /* text-shadow: 1px 1px 6px black; */
+}
+
+.mediaATM img{
+  text-align: center;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 120px;
+  /* top: 0; */
+  position: absolute;
+  z-index: 1;
+}
+
+.mediaNameATM{
+  text-align: center;
+  padding-top: 163px;
+  padding-left: 20px;
+  font-family: Helvetica;
+  font-size: 6px;
+  color: white;
+  /* text-align: left; */
+  position: absolute;
+  z-index: 1;
+  /* text-shadow: 1px 1px 6px black; */
 }
