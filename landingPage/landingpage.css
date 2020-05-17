@@ -40,6 +40,19 @@ body{
   border-color: lightgrey;
 }
 
+.subtext button{
+  /* height: 50px; */
+  background-color: white;
+  font-size: 30px;
+  text-decoration: underline;
+  font-style: white;
+}
+
+.subtext button:hover{
+  opacity: 80%;
+  cursor: pointer;
+}
+
 .subtext p{
   font-family: sans-serif;
   font-size: 50px;
